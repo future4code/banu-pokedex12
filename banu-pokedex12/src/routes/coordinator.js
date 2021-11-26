@@ -1,8 +1,13 @@
+// import { useNavigate } from "react-router";
 
-export const goToProductsScreen = (navigation) => {
-    navigation('/products');
-};
+// // export const goToNextPage = (page) =>{
+// //     const navigate = useNavigate()
+// //     navigate(page);
+// // }
 
-export const goToCartScreen = (navigation) => {
-    navigation('/cart');
-};
+export const error = ""
+
+// export const goToNextPage = (url) =>{
+//     const navigate = useNavigate();
+//      navigate(url);
+// }

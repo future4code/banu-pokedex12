@@ -16,3 +16,15 @@ export async function getPokemons (link) {
     return pokemons;
 
 }
+
+export async function getPokemonByName (pokeName) {
+    let pokemon = await axios
+      .get(URLAPI +"/pokemon/"+ pokeName)
+      .then(response => {
+        return response.data
+      })
+      .catch(err => {
+        return err;
+      });
+    return pokemon;
+  };

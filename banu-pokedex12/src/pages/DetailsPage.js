@@ -1,6 +1,9 @@
+import { Details } from "../components/Details";
+
 function DestailsPage(){
-    return <div>
-    </div>
+
+    
+    return <Details/>
 }
 
 export default DestailsPage;
